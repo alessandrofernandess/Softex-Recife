@@ -1,2 +1,2 @@
 # Softex-Recife
-Material Softex
+Repositorio usado para armazenar Material Softex
