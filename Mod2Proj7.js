@@ -9,7 +9,6 @@ Caso seja inserido um número de operação que não exista, o resultado deverá
 function calculadora(numero1, numero2, operacao) {
     
     if (operacao === 1) {
-    
     return numero1 + numero2;
 
     } else if (operacao === 2) {
@@ -21,7 +20,7 @@ function calculadora(numero1, numero2, operacao) {
     } else if (operacao === 4) {
       
       if (numero2 !== 0) {
-        return numero1 / numero2;
+      return numero1 / numero2;
 
     } else {
       return 0;
