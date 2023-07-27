@@ -22,7 +22,7 @@ function calculadora(numero1, numero2, operacao) {
     }
   }
 }
-  // Exemplos de uso da função:
+  
   console.log(calculadora(10, 10, 1)); // 10 + 10 = 20
   console.log(calculadora(10, 2, 2)); // 10 - 2 = 8
   console.log(calculadora(8, 5, 3)); // 8 * 5 = 40
