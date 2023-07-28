@@ -15,18 +15,18 @@ Após a seleção, o sistema deve pedir para o usuário inserir o primeiro e seg
 function calculadora() {
 
     while (true) {
-      document.write(" Calculadora ")
-      document.write("1 - Soma")
-      document.write("2 - Subtração")
-      document.write("3 - Multiplicação")
-      document.write("4 -Divisão")
-      document.write("0 - Sair")
+      console.log(" Calculadora ")
+      console.log("1 - Soma")
+      console.log("2 - Subtração")
+      console.log("3 - Multiplicação")
+      console.log("4 -Divisão")
+      console.log("0 - Sair")
   
       var operacao = parseFloat(prompt("Digite o número da operação:"))
   
       if (operacao === 0) {
 
-        document.write("Saindo...")
+        console.log("Saindo...")
 
         break;
 
@@ -54,11 +54,11 @@ function calculadora() {
             break;
         }
   
-        document.write("Resultado:" + resultado);
+        console.log("Resultado:" + resultado);
 
       } else {
 
-        document.write("Opção invalida, tente novamente!");
+        console.log("Opção invalida, tente novamente!");
       }
     }
   }
