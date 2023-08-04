@@ -26,7 +26,7 @@ let cores = ['Preto', 'Rosa', 'Vermelho', 'Branco', 'Bege', 'Laranja', 'Azul', '
 cores.splice(2, 1, 'Lilás') 
 idade.splice(3, 1, 50)
 
-Substituição com .splice: recebe tres parâmetros, o primeiro parâmetro é a posição INICIAL do array a ser modificado (posicao 2), O segundo é o número de elementos a serem removidos do array (1) e o terceiro é o que deve ser mostrado no array depois da modificação.
+Substituição com .splice: recebe tres parâmetros, o primeiro parâmetro é a posição INICIAL do array a ser modificado (posicao 2), o segundo é o número de elementos a serem removidos do array (1) e o terceiro é o que deve ser mostrado no array depois da modificação.
 
 console.log(nomes)
 console.log(idade)
