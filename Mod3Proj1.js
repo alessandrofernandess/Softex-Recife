@@ -6,9 +6,9 @@ Você deve criar três listas em JavaScript:
 2. para guardar as suas idades;
 3. para guardar as suas cores favoritas.
 
-Em seguida, imprima essas listas. Depois, faça algumas modificações, alterando uma cor e uma idade. Ao terminar, imprima novamente todas as informações das três listas.*/
+Em seguida, imprima essas listas. Depois, faça algumas modificações, alterando uma cor e uma idade. Ao terminar, imprima novamente todas as informações das três listas.
 
-/*let nomes = ['Lucas', 'Carolina', 'Bruna', 'Rodrigo', 'Raiza', 'Rosana', 'Junior', 'Mateus', 'Gabriel', 'Julia']
+let nomes = ['Lucas', 'Carolina', 'Bruna', 'Rodrigo', 'Raiza', 'Rosana', 'Junior', 'Mateus', 'Gabriel', 'Julia']
 let idade = [18, 10, 30, 32, 28, 48, 51, 17, 21, 10]
 let cores = ['Preto', 'Rosa', 'Vermelho', 'Branco', 'Bege', 'Laranja', 'Azul', 'Verde', 'Marrom', 'Roxo']
 
