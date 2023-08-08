@@ -17,16 +17,12 @@ Levando em conta as três estruturas de dados (fila, lista e pilha) e as suas re
 
 let fila = [3, 7, 9, 1, 0]
 
-console.log(fila) // Mostra a fila completa
+    console.log(fila) // Mostra a fila completa
 
-function removerDaFila() {
+        function removerDaFila() {
     
-    if (fila === 0){
-        return null  
-    }
-    
-    return fila.shift()
-    
+            return fila.shift()
+     
 }
 
 removerDaFila()           //Remove o 3
@@ -68,23 +64,21 @@ console.log(lista) // Mostra a lista vazia.
 // No array [3, 7, 9, 1, 0], iremos remover a partir do elemento 3 ate esvazia-lo removendo o elemento 0.
 
 let pilha = [3, 7, 9, 1, 0]
+    
     console.log(pilha)
 
         function desempilhar(){
-            if (pilha === 0){
-                return null
-        }
-        
-        return pilha.pop()
-    }
+            
+            return pilha.pop()    
+}
 
-    desempilhar()
-    console.log(pilha)
-    desempilhar()
-    console.log(pilha)
-    desempilhar()
-    console.log(pilha)
-    desempilhar()
-    console.log(pilha)
-    desempilhar()
-    console.log(pilha)
+desempilhar()
+console.log(pilha)
+desempilhar()
+console.log(pilha)
+desempilhar()
+console.log(pilha)
+desempilhar()
+console.log(pilha)
+desempilhar()
+console.log(pilha)
