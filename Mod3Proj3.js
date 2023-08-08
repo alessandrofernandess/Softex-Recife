@@ -11,7 +11,7 @@ Levando em conta as três estruturas de dados (fila, lista e pilha) e as suas re
 ///////////////////// Fila
 
 // Na FILA, o primeiro elemento que é adicionado no Array é o primeiro que vai sair. (FIFO - First In, First Out)
-// No array [3, 7, 9, 1, 0], iremos remover a partir do elemento 3 ate esvazia-lo removendo o elemento 0.
+// No array [3, 7, 9, 1, 0], iremos remover a partir do elemento 0 ate esvazia-lo removendo o elemento 3.
 
 // Ex. em Javascript
 
