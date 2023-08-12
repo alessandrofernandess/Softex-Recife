@@ -16,6 +16,8 @@ números removidos em cada uma delas para esvaziá-las completamente utilizando 
 
 // Ex. em Javascript
 
+console.log(' ----- Fila ----- ')
+
 let fila = [3, 7, 9, 1, 0]
 
 console.log(fila)
@@ -37,6 +39,8 @@ for (let i = 0; i < fila.length; i--) {
 // Na lista, podemos remover o elemento que quisermos sem uma sequencia definida.
 // No array [3, 7, 9, 1, 0], iremos remover em ordem aleatória.
 
+console.log(' ----- Lista ----- ')
+
 let lista = [3, 7, 9, 1, 0]
 
 console.log(lista) // Mostra a lista completa
@@ -57,6 +61,8 @@ console.log(lista) // Mostra a lista vazia.
 
 // Na Pilha, o ultimo elemento que é adicionado no Array é o primeiro que vai sair. (LIFO - Last in, First Out)
 // No array [3, 7, 9, 1, 0], iremos remover a partir do elemento 3 ate esvazia-lo removendo o elemento 0.
+
+console.log(' ----- Pilha ----- ')
 
 let pilha = [3, 7, 9, 1, 0]
 
