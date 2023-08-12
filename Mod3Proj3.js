@@ -17,25 +17,18 @@ Levando em conta as três estruturas de dados (fila, lista e pilha) e as suas re
 
 let fila = [3, 7, 9, 1, 0]
 
-    console.log(fila) // Mostra a fila completa
+console.log(fila)
 
-        function removerDaFila() {
+for (let i = 0; i < fila.length; i--) {
     
-            return fila.shift()
-     
+    if(fila.length > 0){
+        fila.shift()
+        console.log(fila)
+    } else{
+        console.log('Fila Vazia!')
+        break
+    }
 }
-
-removerDaFila()           //Remove o 3
-console.log(fila)
-removerDaFila()           //Remove o 7
-console.log(fila)
-removerDaFila()           //Remove o 9
-console.log(fila)
-removerDaFila()           //Remove o 1
-console.log(fila)
-removerDaFila()           //Remove o 0
-console.log(fila)   //Exibe o array vazio.
-
 
 
 ///////////////////// Lista
@@ -47,7 +40,7 @@ let lista = [3, 7, 9, 1, 0]
 
 console.log(lista) // Mostra a lista completa
 
-lista.splice(3,1)
+lista.splice(3,1)                                          // melhorar
 console.log(lista)
 lista.splice(3,1)
 console.log(lista)
@@ -58,27 +51,23 @@ console.log(lista)
 lista.splice(0,1)
 console.log(lista) // Mostra a lista vazia.
 
+
 ///////////////////// Pilha
 
 // Na Pilha, o ultimo elemento que é adicionado no Array é o primeiro que vai sair. (LIFO - Last in, First Out)
 // No array [3, 7, 9, 1, 0], iremos remover a partir do elemento 3 ate esvazia-lo removendo o elemento 0.
 
 let pilha = [3, 7, 9, 1, 0]
+
+console.log(pilha)
+
+for (let i = 0; i < pilha.length; i--) {
     
-    console.log(pilha)
-
-        function desempilhar(){
-            
-            return pilha.pop()    
+    if(pilha.length > 0){
+        pilha.pop()
+        console.log(pilha)
+    } else{
+        console.log('Pilha Vazia!')
+        break
+    }
 }
-
-desempilhar()
-console.log(pilha)
-desempilhar()
-console.log(pilha)
-desempilhar()
-console.log(pilha)
-desempilhar()
-console.log(pilha)
-desempilhar()
-console.log(pilha)
