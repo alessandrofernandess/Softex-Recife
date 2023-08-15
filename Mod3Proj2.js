@@ -4,6 +4,8 @@ Nesta atividade, você deve criar um código em JavaScript com uma matriz bidime
 
 Cada linha deve representar um animal e cada coluna terá as diferentes informações sobre ele, como nome, espécie e idade.*/
 
+// Resolução:
+
 let animais = [
     ['Leão', 'Mamifero', 18],
     ['Cachorro', 'Mamifero', 10],
