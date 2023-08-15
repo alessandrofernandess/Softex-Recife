@@ -1,3 +1,11 @@
+/* Modulo 3 - Projeto 4
+
+Crie uma lista encadeada em que cada elemento representa uma pessoa.
+
+Ela precisa conter informações como nome, idade e referência ao filho dela.
+
+*/
+
 class Pessoa {
 
     constructor(nome, idade, filho = null) {
@@ -7,10 +15,10 @@ class Pessoa {
     }
   }
   
-  const pessoa2 = new Pessoa("Lucas", 10);
-  const pessoa1 = new Pessoa("Alessandro", 35, pessoa2);
+  let pessoa2 = new Pessoa("Lucas", 10);
+  let pessoa1 = new Pessoa("Alessandro", 35, pessoa2);
   
-  pessoa1.next = pessoa2;
+  pessoa1.next = pessoa2
   
   let pessoaAtual = pessoa1;
   
@@ -25,6 +33,7 @@ class Pessoa {
     }
     
     console.log('-------');
+    
     pessoaAtual = pessoaAtual.next;
   }
   
