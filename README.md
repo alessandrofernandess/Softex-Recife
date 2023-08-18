@@ -1,2 +1,3 @@
 # Softex-Recife
-Repositorio usado para armazenar material da Softex
+
+// Repositorio usado para armazenar os projetos da Softex!
