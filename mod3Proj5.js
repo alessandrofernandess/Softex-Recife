@@ -4,7 +4,7 @@
 
 // Para isso, temos que escolher entre realizar uma busca linear ou binária de acordo com a que for mais adequada para essa situação.
 
-// Codifique a solução mais eficiente para buscar o número 20 no array.
+// Codifique a solução mais eficiente para buscar o número 20 no array.m
 
 // Resolução:
 
