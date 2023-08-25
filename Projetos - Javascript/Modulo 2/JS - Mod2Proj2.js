@@ -10,23 +10,23 @@ let resultado
 
 if(operacao == '+'){                                                      //Soma
     resultado = num1 + num2
-        console.log(`${num1} + ${num2} = ${resultado}`)
+        document.write(`${num1} + ${num2} = ${resultado}`)
 }
 
 if(operacao == '-'){                                                      //Subtração
     resultado = num1 - num2
-        console.log(`${num1} - ${num2} = ${resultado}`)
+        document.write(`${num1} - ${num2} = ${resultado}`)
 }
 
 if(operacao == '*'){                                                      //Multiplicação
     resultado = num1 * num2
-        console.log(`${num1} x ${num2} = ${resultado}`)
+        document.write(`${num1} x ${num2} = ${resultado}`)
 }
 
 if(operacao == '/'){                                                      //Divisão
     if (num2 !== 0) {
         resultado = num1 / num2  
             let resto = num1 % num2
-                console.log(`${num1} / ${num2} = ${resultado} Resto: ${resto}`)
+                document.write(`${num1} / ${num2} = ${resultado} Resto: ${resto}`)
     }
 }
