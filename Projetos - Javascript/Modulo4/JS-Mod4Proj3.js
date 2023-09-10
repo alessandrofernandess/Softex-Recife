@@ -2,8 +2,6 @@
 
 // Array de Objetos
 
-// Criar um array de objetos "pessoas"
-
 const pessoas = [
     { nome: 'Bruna', idade: 34, profissao: 'Artesa', cidade: 'Recife' },
     { nome: 'Lucas', idade: 20, profissao: 'Jogador', cidade: 'Sao Paulo' },
@@ -13,10 +11,10 @@ const pessoas = [
   
   // Usando o 'for...in'
 
-  for (let i = 0; i < pessoas.length; i++) {
-    console.log(`Pessoa ${i + 1}:`);
+    for (let i = 0; i < pessoas.length; i++) {
+        console.log(`Pessoa ${i + 1}:`);
     for (const propriedade in pessoas[i]) {
-      console.log(`${propriedade}: ${pessoas[i][propriedade]}`);
+        console.log(`${propriedade}: ${pessoas[i][propriedade]}`);
     }
     console.log('------------------------');
   }
@@ -24,13 +22,14 @@ const pessoas = [
   // Usando o loop 'for...of'
 
   let indice = 1;
-  for (const pessoa of pessoas) {
-    console.log(`Pessoa ${indice}:`);
+
+    for (const pessoa of pessoas) {
+        console.log(`Pessoa ${indice}:`);
     for (const propriedade in pessoa) {
-      console.log(`${propriedade}: ${pessoa[propriedade]}`);
+        console.log(`${propriedade}: ${pessoa[propriedade]}`);
     }
     console.log('------------------------');
-    indice++;
+        indice++;
   }
   
   
