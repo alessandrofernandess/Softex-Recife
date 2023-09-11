@@ -2,36 +2,32 @@
 
 // Objetos
 
-class Banco{
+let banco = {
+    conta: 123456,
+    saldo: 20000,
+    tipoDeConta: 'Corrente',
+    agencia: 4321.0,
 
-    constructor(){
-    this.conta = 123456
-    this.tipoDeConta = "Conta Corrente"
-    this.saldo = 2000
-    this.agencia = 432.1
-    }
-
-    buscarSaldo(){
+    buscarSaldo: function(){
         return this.saldo
-    }
+    },
 
-    depositar(valorDeposito){
-        this.saldo += valorDeposito
-    }
+    depositar: function(valor){
+        this.saldo += valor
+    },
 
-    sacar(valorSaque){
-        this.saldo -= valorSaque
-    }
+    sacar: function(valor){
+        this.saldo -= valor
+    },
 
-    mostrarConta(){
+    mostrarConta: function(){
         return this.conta
     }
 }
 
-let contaBancaria = new Banco()
-
-console.log(`Seu Saldo é: R$${contaBancaria.buscarSaldo()}`)
-contaBancaria.depositar(500)
-contaBancaria.sacar(200)
-console.log(`O numero da sua conta bancaria é: ${contaBancaria.mostrarConta()}`)
-console.log(`Seu saldo é: R$${contaBancaria.buscarSaldo()}`)
+console.log(`Seu Saldo é: R$${banco.buscarSaldo()}`)
+banco.depositar(500)
+console.log(`Seu Saldo é: R$${banco.buscarSaldo()}`)
+banco.sacar(200)
+console.log(`Seu saldo é: R$${banco.buscarSaldo()}`)
+console.log(`O numero da sua conta bancaria é: ${banco.mostrarConta()}`)
