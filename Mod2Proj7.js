@@ -39,4 +39,3 @@ function calculadora(numero1, numero2, operacao) {
   console.log(calculadora(8, 5, 3)); // 8 * 5 = 40
   console.log(calculadora(40, 2, 4)); // 40 / 2 = 20
   console.log(calculadora(8, 2, 5)); // Resultado será 0
-  
