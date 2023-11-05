@@ -31,5 +31,3 @@ const pessoas = [
     console.log('------------------------');
         indice++;
   }
-  
-  
