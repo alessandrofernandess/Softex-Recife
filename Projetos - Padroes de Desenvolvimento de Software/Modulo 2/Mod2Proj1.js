@@ -10,7 +10,9 @@ O projeto deve seguir os seguintes critérios:
 - O sanduíche de frango assado custa $4,50.
 - O ingrediente adicional pepperoni custa $0,99.
 - O ingrediente adicional queijo mussarela ralado custa $2,00.
-- Crie as classes necessárias: FrangoAssado, Pepperoni e QueijoMussarelaRalado.*/
+- Crie as classes necessárias: FrangoAssado, Pepperoni e QueijoMussarelaRalado.
+
+*/
 
 // Resolução
 

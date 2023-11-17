@@ -14,7 +14,9 @@ como numeroRodas e numeroPortas
 utilizando o método clone dos objetos para preencher o array
 - Na classe Aplicação, implemente um método que retorne um array com o mesmo tamanho do array de veículos, onde cada elemento deve ser um clone dos elementos do array 
 veículos
-- No final, deve imprimir na tela o retorno da função represent de cada elemento desse novo array de clones de veículos*/
+- No final, deve imprimir na tela o retorno da função represent de cada elemento desse novo array de clones de veículos
+
+*/
 
 // Resolução
 

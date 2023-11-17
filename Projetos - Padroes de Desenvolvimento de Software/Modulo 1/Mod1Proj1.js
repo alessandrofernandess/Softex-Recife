@@ -10,7 +10,9 @@ Considere que:
 - RAM e HD devem estar em GB.
 - CPU deve estar em GHz.
 - Através do tipo informado, a fábrica decide qual tipo de computador irá instanciar.
-- Quando o método .toString() for aplicado a um computador, ele deve imprimir seus atributos. */
+- Quando o método .toString() for aplicado a um computador, ele deve imprimir seus atributos.
+
+*/
 
 // Resolução
 
