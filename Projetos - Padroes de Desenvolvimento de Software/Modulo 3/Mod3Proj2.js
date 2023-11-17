@@ -4,6 +4,7 @@
 
 Aplique o padrão de projeto Observer para criar um simples editor de texto. Considere a solução apresentada no 
 Hipertexto 6 e utilize o código visto para implementar novas classes. Os requisitos para avaliar o projeto são:
+
 - Implementar uma subclasse da classe Editor chamada TextEditor.
 - Aplicar o método insertLine, que recebe os parâmetros lineNumber e text.
 - Inserir o texto na ordem correspondente a lineNumber e deslocar as linhas posteriores se necessário.
