@@ -25,6 +25,7 @@
 
 -- Atualize o estoque na tabela "Produtos" de acordo com as vendas.
 
+-- Resolução --
 
 -- Criação do Banco de Dados
 
